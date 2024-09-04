@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #f5f5f5; /* Light text color */
+    text-align: center;
+}
+
+header {
+    background-color: #1f1f1f; /* Slightly lighter dark background for header */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #f5f5f5; /* Light text color */
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 1.5rem;
+    color: #e0e0e0; /* Slightly dimmed text color */
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    background-color: #1e1e1e; /* Dark background for menu items */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Stronger shadow for dark theme */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    background-color: #2a2a2a; /* Slightly lighter on hover */
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 2px solid #f5f5f5; /* Light border around images */
+}
+
+.menu-item p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #444444; /* Dark button background */
+    color: #f5f5f5; /* Light text color */
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.additional-info {
+    background-color: #1f1f1f; /* Dark background for additional info */
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.additional-info .menu-item {
+    margin-bottom: 20px;
+}
+.item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 2px solid #f5f5f5; /* Light border around images */
+}
+
+.additional-info p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.enjera-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #444444; /* Dark button background */
+    color: #f5f5f5; /* Light text color */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin:0;
+    display: inline-block;
+    width: 100%;
+}
+
+.enjera-button:hover {
+    background-color: #555555; /* Slightly lighter on hover */
+}
